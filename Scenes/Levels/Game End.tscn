@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scenes/Splash/demo_collection/zoom/splash_screen.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/Levels/Game End.gd" type="Script" id=2]
+
+[node name="GameEnd" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="SplashZoom" parent="." instance=ExtResource( 1 )]
+logo_path = "res://Scenes/Splash/Splash Screen/logo.png"
+title = "Game End"
+description = ""
+
+[connection signal="finished" from="SplashZoom" to="." method="_on_SplashZoom_finished"]

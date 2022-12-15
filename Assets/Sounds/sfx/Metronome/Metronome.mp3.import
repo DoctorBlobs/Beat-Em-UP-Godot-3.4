@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Metronome.mp3-acdbfe4c4562e8c96bdcdf3231a4aec5.mp3str"
+
+[deps]
+
+source_file="res://Assets/Sounds/sfx/Metronome/Metronome.mp3"
+dest_files=[ "res://.import/Metronome.mp3-acdbfe4c4562e8c96bdcdf3231a4aec5.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

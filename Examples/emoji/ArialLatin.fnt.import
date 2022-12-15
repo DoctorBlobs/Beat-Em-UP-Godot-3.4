@@ -1,0 +1,15 @@
+[remap]
+
+importer="font_data_bmfont"
+type="FontData"
+uid="uid://bvqbpd07qpvwi"
+path="res://.godot/imported/ArialLatin.fnt-3aa99284b1af075e667b392f334fe88d.fontdata"
+
+[deps]
+
+source_file="res://Examples/emoji/ArialLatin.fnt"
+dest_files=["res://.godot/imported/ArialLatin.fnt-3aa99284b1af075e667b392f334fe88d.fontdata"]
+
+[params]
+
+compress=true

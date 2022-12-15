@@ -1,0 +1,200 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/Themes/Pixel Theme.tres" type="Theme" id=1]
+[ext_resource path="res://Scenes/Rhythm/End/End.gd" type="Script" id=6]
+
+[node name="End" type="Node2D"]
+script = ExtResource( 6 )
+
+[node name="PlayAgain" type="TextureButton" parent="."]
+margin_left = 48.0
+margin_top = 128.0
+margin_right = 144.0
+margin_bottom = 168.0
+theme = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="BackToMenu" type="TextureButton" parent="."]
+margin_left = 176.0
+margin_top = 128.0
+margin_right = 272.0
+margin_bottom = 168.0
+theme = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GradeLabel" type="Label" parent="."]
+margin_left = 84.0
+margin_top = 8.0
+margin_right = 148.0
+margin_bottom = 22.0
+theme = ExtResource( 1 )
+custom_colors/font_color = Color( 0.964706, 0.839216, 0.741176, 1 )
+text = "grade:"
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GradeNumber" type="Label" parent="."]
+margin_left = 160.0
+margin_top = 8.0
+margin_right = 224.0
+margin_bottom = 22.0
+theme = ExtResource( 1 )
+custom_colors/font_color = Color( 0.964706, 0.839216, 0.741176, 1 )
+align = 2
+valign = 1
+
+[node name="ScoreLabel" type="Label" parent="."]
+margin_left = 84.0
+margin_top = 24.0
+margin_right = 148.0
+margin_bottom = 38.0
+theme = ExtResource( 1 )
+custom_colors/font_color = Color( 0.964706, 0.839216, 0.741176, 1 )
+text = "final score: "
+valign = 1
+
+[node name="ScoreNumber" type="Label" parent="."]
+margin_left = 160.0
+margin_top = 24.0
+margin_right = 224.0
+margin_bottom = 38.0
+theme = ExtResource( 1 )
+custom_colors/font_color = Color( 0.964706, 0.839216, 0.741176, 1 )
+align = 2
+valign = 1
+
+[node name="ComboLabel" type="Label" parent="."]
+margin_left = 84.0
+margin_top = 40.0
+margin_right = 148.0
+margin_bottom = 54.0
+theme = ExtResource( 1 )
+custom_colors/font_color = Color( 0.964706, 0.839216, 0.741176, 1 )
+text = "max combo:"
+valign = 1
+
+[node name="ComboNumber" type="Label" parent="."]
+margin_left = 160.0
+margin_top = 40.0
+margin_right = 224.0
+margin_bottom = 54.0
+theme = ExtResource( 1 )
+custom_colors/font_color = Color( 0.964706, 0.839216, 0.741176, 1 )
+align = 2
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GreatLabel" type="Label" parent="."]
+margin_left = 84.0
+margin_top = 56.0
+margin_right = 148.0
+margin_bottom = 70.0
+theme = ExtResource( 1 )
+custom_colors/font_color = Color( 0.964706, 0.839216, 0.741176, 1 )
+text = "great:"
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GreatNumber" type="Label" parent="."]
+margin_left = 160.0
+margin_top = 56.0
+margin_right = 224.0
+margin_bottom = 70.0
+theme = ExtResource( 1 )
+custom_colors/font_color = Color( 0.964706, 0.839216, 0.741176, 1 )
+align = 2
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GoodLabel" type="Label" parent="."]
+margin_left = 84.0
+margin_top = 72.0
+margin_right = 148.0
+margin_bottom = 86.0
+theme = ExtResource( 1 )
+custom_colors/font_color = Color( 0.964706, 0.839216, 0.741176, 1 )
+text = "good:"
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GoodNumber" type="Label" parent="."]
+margin_left = 160.0
+margin_top = 72.0
+margin_right = 224.0
+margin_bottom = 86.0
+theme = ExtResource( 1 )
+custom_colors/font_color = Color( 0.964706, 0.839216, 0.741176, 1 )
+align = 2
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="OkayLabel" type="Label" parent="."]
+margin_left = 84.0
+margin_top = 88.0
+margin_right = 148.0
+margin_bottom = 102.0
+theme = ExtResource( 1 )
+custom_colors/font_color = Color( 0.964706, 0.839216, 0.741176, 1 )
+text = "okay:"
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="OkayNumber" type="Label" parent="."]
+margin_left = 160.0
+margin_top = 88.0
+margin_right = 224.0
+margin_bottom = 102.0
+theme = ExtResource( 1 )
+custom_colors/font_color = Color( 0.964706, 0.839216, 0.741176, 1 )
+align = 2
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MissedLabel" type="Label" parent="."]
+margin_left = 84.0
+margin_top = 104.0
+margin_right = 148.0
+margin_bottom = 118.0
+theme = ExtResource( 1 )
+custom_colors/font_color = Color( 0.964706, 0.839216, 0.741176, 1 )
+text = "missed:"
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MissedNumber" type="Label" parent="."]
+margin_left = 160.0
+margin_top = 104.0
+margin_right = 224.0
+margin_bottom = 118.0
+theme = ExtResource( 1 )
+custom_colors/font_color = Color( 0.964706, 0.839216, 0.741176, 1 )
+align = 2
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="PlayAgain" to="." method="_on_PlayAgain_pressed"]
+[connection signal="pressed" from="BackToMenu" to="." method="_on_BackToMenu_pressed"]

@@ -1,0 +1,27 @@
+[gd_scene load_steps=17 format=2]
+
+[ext_resource path="res://Scenes/Music/musicsystem.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Sounds/Songs/1. The Teal of the Tropical.wav" type="AudioStream" id=2]
+[ext_resource path="res://Assets/Sounds/Songs/2. New Summit.wav" type="AudioStream" id=3]
+[ext_resource path="res://Assets/Sounds/Songs/3. Road Trip through Nevada.wav" type="AudioStream" id=4]
+[ext_resource path="res://Assets/Sounds/Songs/5. New Avenues.wav" type="AudioStream" id=5]
+[ext_resource path="res://Assets/Sounds/Songs/4. Tundra.wav" type="AudioStream" id=6]
+[ext_resource path="res://Assets/Sounds/Songs/6. High on Adrenaline.wav" type="AudioStream" id=7]
+[ext_resource path="res://Assets/Sounds/Songs/7. The Energy Rush.wav" type="AudioStream" id=8]
+[ext_resource path="res://Assets/Sounds/Songs/8. Neon Volt.wav" type="AudioStream" id=9]
+[ext_resource path="res://Assets/Sounds/Songs/9. Take the Shot.wav" type="AudioStream" id=10]
+[ext_resource path="res://Assets/Sounds/Songs/10. Swaying Hands.wav" type="AudioStream" id=11]
+[ext_resource path="res://Assets/Sounds/Songs/12. A Hit of the Highness.wav" type="AudioStream" id=12]
+[ext_resource path="res://Assets/Sounds/Songs/15. Neo-Futurism.wav" type="AudioStream" id=13]
+[ext_resource path="res://Assets/Sounds/Songs/11. LUMA.wav" type="AudioStream" id=14]
+[ext_resource path="res://Assets/Sounds/Songs/14. Zenith.wav" type="AudioStream" id=15]
+[ext_resource path="res://Assets/Sounds/Songs/13. Aqueous.wav" type="AudioStream" id=16]
+
+[node name="Sound System" type="AudioStreamPlayer"]
+script = ExtResource( 1 )
+SoundList = [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 6 ), ExtResource( 5 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 14 ), ExtResource( 12 ), ExtResource( 16 ), ExtResource( 15 ), ExtResource( 13 ) ]
+
+[node name="TimeBetweenTracks" type="Timer" parent="."]
+
+[connection signal="finished" from="." to="." method="_on_Music_System_finished"]
+[connection signal="timeout" from="TimeBetweenTracks" to="." method="_on_TimeBetweenTracks_timeout"]
